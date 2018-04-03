@@ -86,7 +86,7 @@ local function AskQuestion()
 		--create question in text object
 		questionObject.text = randomNumber3 .. " X " .. randomNumber4 .. " = " 
 
-elseif (randomOperator == 4) then
+	elseif (randomOperator == 4) then
 		correctAnswer = randomNumber3 * randomNumber4 
 		randomNumber3 = correctAnswer
 		correctAnswer = randomNumber3 / randomNumber4
