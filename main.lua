@@ -204,7 +204,7 @@ local function HideIncorrect()
  			event.target.text = ""
  			secondsLeft = totalSeconds
  			wrongSoundChannel = audio.play(wrongSound)
- 			correctAnswerObject.isVisible = true
+ 			correctAnswerObject.isVisible = false
  			timer.performWithDelay(2000, HideCorrectAnswer)
 
  			if (lives == 0) then
